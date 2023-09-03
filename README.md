@@ -50,18 +50,20 @@ After creating the database, rename your `.env.example` to `.env` and add your d
 Email: test@example.com
 Password: password
 
-## For paypal setup:
-add following code in your .env file.
+## For PayPal setup:
+Add the following code in your .env file:
+```plaintext
 PAYPAL_MODE=
 PAYPAL_SANDBOX_CLIENT_ID=
 PAYPAL_SANDBOX_CLIENT_SECRET=
 
-craete your own paypal developer accout and get client id and client secret
+
+Create your own PayPal developer account and get the client ID and client secret.
 
 Note: Please ensure all commands run successfully. Sometimes issues can occur due to version mismatches.
 
 Here are some external dependencies:
 
-- Breeze: "laravel/breeze": "1.9.2" (command: `composer require laravel/breeze 1.9.2`)
-- Livewire: "livewire/livewire": "^2.12" (command: `composer require laravel/livewire`)
-- Paypal: "srmklive/paypal": "^3.0" (command: `composer require srmklive/paypal`)
+Breeze: "laravel/breeze": "1.9.2" (command: composer require laravel/breeze 1.9.2)
+Livewire: "livewire/livewire": "^2.12" (command: composer require laravel/livewire)
+PayPal: "srmklive/paypal": "^3.0" (command: composer require srmklive/paypal)
