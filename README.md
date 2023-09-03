@@ -10,40 +10,39 @@
 # E-commerce Single Page Application Development
 
 This Project is based on Laravel Freamwork
-For Frontend:-
+#For Frontend:-
 1. Tailwind Component
    
-Ecommerce Component
+#Ecommerce Component
 1. Livewire
 
-Requirement:-
+#Requirement:-
 1. Xampp 8.0.25
 
 Clone This project in your local htdocs and run following command step by step
 
-For node module
+#For node module:-
 1. npm install
-For generate the key
+#For generate the key:-
 2. php artisan key:generate
-For development 
+#For development :-
 3. npm run dev
-For Web mix
+#For Web mix:-
 4. num run watch
 
 After Create database rename your .env.example to .env and add your database name
 
-For migrate table 
+#For migrate table :-
 5. php artisan migrate:fresh --seed
 
-after that start your server
-
+#after that start your server:-
 6. php artisan serve
 
 
 
 
-User credentials:-
-Email:- test@example.com
+#User credentials:-
+Email:- test@example.com 
 Password :- password
 
 
