@@ -50,6 +50,14 @@ After creating the database, rename your `.env.example` to `.env` and add your d
 Email: test@example.com
 Password: password
 
+## For paypal setup:
+add following code in your .env file.
+PAYPAL_MODE=
+PAYPAL_SANDBOX_CLIENT_ID=
+PAYPAL_SANDBOX_CLIENT_SECRET=
+
+craete your own paypal developer accout and get client id and client secret
+
 Note: Please ensure all commands run successfully. Sometimes issues can occur due to version mismatches.
 
 Here are some external dependencies:
