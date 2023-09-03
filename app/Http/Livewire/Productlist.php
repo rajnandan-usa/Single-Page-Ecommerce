@@ -16,7 +16,7 @@ class Productlist extends Component
 
         return view('livewire.productlist');
     }
-
+// add to cart
     public function addToCart($id){
     if(auth()->user()){
         $cartItem = Shoppingcart::where('user_id', auth()->user()->id)
