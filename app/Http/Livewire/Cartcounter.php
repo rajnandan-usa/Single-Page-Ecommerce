@@ -17,6 +17,8 @@ class Cartcounter extends Component
 
         return view('livewire.cartcounter');
     }
+
+    //cart count get
     public function getCartItemCount(){
         $this->total = shoppingcart::whereUserId(auth()->user()->id)
             ->where('status', '!=', shoppingcart::STATUS['success'])
