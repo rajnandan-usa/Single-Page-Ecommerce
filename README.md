@@ -8,3 +8,6 @@
 </p>
 
 # E-commerce Single Page Application Development
+
+Requirement:-
+1. Xampp 8.0.25
