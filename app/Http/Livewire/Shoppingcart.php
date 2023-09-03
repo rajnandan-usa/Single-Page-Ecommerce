@@ -27,7 +27,7 @@ class Shoppingcart extends Component
 
         return view('livewire.shoppingcart');
     }
-
+//increament qty
     public function incrementQty($id){
         $cart = Cart::whereId($id)->first();
         $cart->quantity += 1;
@@ -36,6 +36,7 @@ class Shoppingcart extends Component
         session()->flash('success', 'Product quantity updated !!!');
     }
 
+    //decrement qty
     public function decrementQty($id){
         $cart = Cart::whereId($id)->first();
         if($cart->quantity > 1){
@@ -47,6 +48,7 @@ class Shoppingcart extends Component
         }
     }
 
+    // remove item
     public function removeItem($id){
         $cart = Cart::whereId($id)->first();
 
@@ -57,6 +59,7 @@ class Shoppingcart extends Component
         session()->flash('success', 'Product removed from cart !!!');
     }
 
+    //billing details
     public function storeBillingDetails()
     {
         
@@ -87,6 +90,7 @@ class Shoppingcart extends Component
         session()->flash('success', 'Billing details saved successfully.');
     }
 
+    //checkout process
     public function checkout(){
         
         $this->storeBillingDetails();
